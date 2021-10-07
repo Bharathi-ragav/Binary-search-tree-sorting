@@ -19,6 +19,7 @@ public class BinaryTreeToSort {
 
         in.close();
         //print in ascending order
+        System.out.println("List In Order :");
         tree.inorder(tree.root);
     
     }
@@ -122,4 +123,3 @@ public class BinaryTreeToSort {
         }
         
     }
-
